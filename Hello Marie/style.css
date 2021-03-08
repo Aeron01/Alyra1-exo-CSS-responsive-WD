@@ -48,7 +48,7 @@
       /* la largeur du contenue textuel ne dépasse pas 650px*/
       /*max-width: 35rem;      approche classique */
       max-width: 65ch;
-      /* approche ou on met le nombre de caractère qu'ont ne veut pas dépasser (appeler "ch")*/
+      /* cette approche ou ont mets le nombre de caractères qu'ont ne veut pas dépasser (appeler "ch")*/
       margin-left: auto;
       margin-right: auto;
     }
@@ -91,6 +91,6 @@
 
       footer {
         border: 1px solid;
-        box-shadow: var(--shadow-dimensions) 0 var(--brand);
+        box-shadow: var(--shadow-dimensions) var(--brand);
       }
     }
